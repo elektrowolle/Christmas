@@ -17,8 +17,16 @@
             "prototype": "digit/ui/title.reel",
             "properties": {
                 "element": {"#": "title"},
+                "classList": {
+                    "type": "set",
+                    "values": {
+                        "0": ""
+                    }
+                },
                 "converter": null,
-                "value": "hallo"
+                "draggable": "false",
+                "hidden": true,
+                "value": ""
             }
         }
     }
@@ -26,7 +34,7 @@
 </head>
 <body>
     <div data-montage-id="main" data-montage-skin="light" class="Main">
-        <h1 data-montage-id="title">hallo</h1>
+        <h1 data-montage-id="title"></h1>
     </div>
 </body>
 </html>
